@@ -40,7 +40,7 @@ In complex embodied visual reasoning scenarios, an agent often has only a limite
 
 ## Benchmark
 
-JRDB-AVR is generated from the 27 JRDB test sequences using the annotations of [JRDB](https://jrdb.erc.monash.edu/) and its extension datasets (JRDB-Act, JRDB-Pose, JRDB-PanoTrack, JRDB-Social and JRDB-Reasoning). The released benchmark contains **2,098 active VQA questions**.
+JRDB-AVR is generated from the 27 JRDB test sequences using the annotations of [JRDB](https://jrdb.erc.monash.edu/) and its extension datasets (JRDB-Act, JRDB-Pose, JRDB-PanoTrack, JRDB-Social and JRDB-Reasoning). The released benchmark contains **2,098 active visual reasoning VQA questions**.
 
 ### Observation Interface
 
@@ -67,7 +67,11 @@ A prediction contains the answer and the visual evidence, i.e. the target locali
 
 ## Data
 
-JRDB-AVR depends on the original JRDB dataset, which must be obtained separately from https://jrdb.erc.monash.edu/. Any use of the original JRDB data must comply with the license terms of the JRDB dataset.
+JRDB-AVR and its dependent original JRDB dataset, must be obtained from https://jrdb.erc.monash.edu/.
+
+## License
+
+Any use of the JRDB and JRDB-AVR data must comply with the license terms of the JRDB dataset (CC BY-NC-SA 3.0). The code in the repository is under [Apache 2.0 license](/LICENSE).
 
 ## Citation
 
