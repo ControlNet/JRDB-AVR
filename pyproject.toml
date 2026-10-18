@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jrdb-avr"
+version = "1.0.0"
+description = "JRDB-AVR benchmark SDK"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["pillow"]
+
+[tool.setuptools.packages.find]
+include = ["jrdb_avr*"]

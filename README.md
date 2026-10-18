@@ -50,7 +50,11 @@ The agent is not given the full panorama up front. Instead, it actively requests
 observe(sequence, frame_index, angle_deg)
 ```
 
-which returns a 480×480 RGB crop, with metadata, rendered from the stitched JRDB panoramic video (3760×480, 15 FPS).
+which returns a 480×480 RGB crop, with metadata, rendered from the stitched JRDB panoramic video (3760×480, 15 FPS). Install the SDK with
+
+```bash
+pip install git+https://github.com/ControlNet/JRDB-AVR.git
+```
 
 ### Evaluation Metrics
 

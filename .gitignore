@@ -12,7 +12,7 @@ dist/
 .env.local
 
 # Data and outputs
-data/
+/data/
 datasets/
 result/
 outputs/
