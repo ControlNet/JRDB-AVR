@@ -38,13 +38,13 @@
 
 In complex embodied visual reasoning scenarios, an agent often has only a limited field of view, and the evidence needed to answer a question may be distributed across time, viewpoint, and interacting objects. A model may therefore give a plausible answer without ever observing the relevant object, time, or view that supports it. Current visual reasoning benchmarks largely evaluate passive observations and final answers, overlooking settings that require active reasoning and evidence acquisition. We introduce JRDB-AVR, a benchmark derived from existing real-world JRDB robotics data through a structured question-generation engine that turns this gap into an explicit evaluation: an embodied agentic system receives a visual reasoning question, requests bounded observations by timestamp and viewing angle, and is evaluated on both the final answer and the grounded visual evidence supporting it. The benchmark contains diverse questions over multiple real-world environments involving temporal search, viewpoint selection, and human-oriented compositional reasoning. We also introduce JRDB-AVR-Agent, a reference active reasoning agentic method that maintains an explicit observation-grounded graph-based world model and answers through solving. Experiments reveal a substantial gap between answer accuracy and evidence accuracy in current baselines, showing that current VLMs can produce unsupported correct answers and that active evidence-aware evaluation is necessary for embodied visual reasoning.
 
-## Benchmark
-
-JRDB-AVR is generated from the 27 JRDB test sequences using the annotations of [JRDB](https://jrdb.erc.monash.edu/) and its extension datasets (JRDB-Act, JRDB-Pose, JRDB-PanoTrack, JRDB-Social and JRDB-Reasoning). The released benchmark contains **2,098 active visual reasoning VQA questions**.
-
 ## Data
 
 JRDB-AVR and its dependent original JRDB dataset, need to be downloaded from https://jrdb.erc.monash.edu/.
+
+## Benchmark
+
+JRDB-AVR is generated from the 27 JRDB test sequences using the annotations of [JRDB](https://jrdb.erc.monash.edu/) and its extension datasets (JRDB-Act, JRDB-Pose, JRDB-PanoTrack, JRDB-Social and JRDB-Reasoning). The released benchmark contains **2,098 active visual reasoning VQA questions**.
 
 ### Observation Interface
 
