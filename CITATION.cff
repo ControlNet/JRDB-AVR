@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you find this work useful for your research, please consider citing it."
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Cai"
+    given-names: "Zhixi"
+  - family-names: "Ke"
+    given-names: "Fucai"
+  - family-names: "Huang"
+    given-names: "Sukai"
+  - family-names: "Garcia de la Banda"
+    given-names: "Maria"
+  - family-names: "Stuckey"
+    given-names: "Peter J."
+  - family-names: "Haffari"
+    given-names: "Gholamreza"
+  - family-names: "Rezatofighi"
+    given-names: "Hamid"
+  title: "JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments"
+  collection-title: "Advances in Neural Information Processing Systems"
+  year: 2026

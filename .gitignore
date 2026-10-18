@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.pixi/
+.venv/
+.env
+.env.local
+
+# Data and outputs
+data/
+datasets/
+result/
+outputs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
